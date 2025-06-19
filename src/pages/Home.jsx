@@ -4,7 +4,7 @@ import CTASection from "@/components/CTASection";
 
 export default function Home() {
   return (
-    <main className="mt-16">
+    <main>
       <HeroSection />
       <AboutSection />
       <CTASection />

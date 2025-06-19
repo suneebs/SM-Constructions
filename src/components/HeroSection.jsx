@@ -1,25 +1,24 @@
-// components/HeroSection.jsx
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
     <section
-      className="min-h-screen bg-cover bg-center relative"
+      className="min-h-screen bg-cover bg-center relative text-white"
       style={{
         backgroundImage: "url('/construction-bg.jpg')",
         backgroundAttachment: "fixed",
       }}
     >
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-black/60" /> {/* Dark overlay */}
       <div className="relative z-10 flex items-center justify-center min-h-screen">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center text-white px-4 max-w-2xl"
+          className="text-center px-4 max-w-2xl"
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-xl">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-md">
             Building Dreams Since 1975
           </h1>
           <p className="text-lg md:text-xl mb-6">
