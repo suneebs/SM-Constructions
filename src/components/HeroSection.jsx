@@ -6,27 +6,40 @@ export default function HeroSection() {
     <section
       className="min-h-screen bg-cover bg-center relative text-white"
       style={{
-        backgroundImage: "url('/construction-bg.jpg')",
-        backgroundAttachment: "fixed",
+        backgroundImage: "url('/Construction.jpg')",
+        backgroundAttachment: "scroll", // Default
+  backgroundPosition: "center",
+  backgroundSize: "cover",
       }}
     >
-      <div className="absolute inset-0 bg-black/60" /> {/* Dark overlay */}
-      <div className="relative z-10 flex items-center justify-center min-h-screen">
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/60" />
+
+      {/* Content */}
+      <div className="relative z-10 flex items-center justify-center min-h-screen px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center px-4 max-w-2xl"
+          className="text-center max-w-screen-md"
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-md">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 drop-shadow-md leading-tight">
             Building Dreams Since 1975
           </h1>
-          <p className="text-lg md:text-xl mb-6">
-            Trusted partner in premium residential, commercial, and industrial projects.
+          <p className="text-base sm:text-lg md:text-xl mb-6 leading-relaxed">
+            Trusted partner in premium residential, commercial, and industrial projects across Kerala.
           </p>
-          <div className="flex justify-center gap-4 flex-wrap">
-            <Button variant="default">Our Services</Button>
-            <Button variant="outline" className="text-white border-white">Contact Us</Button>
+
+          <div className="flex justify-center flex-wrap gap-4">
+            <Button variant="secondary" className="px-6 py-2 text-sm sm:text-base">
+              Our Services
+            </Button>
+            <Button
+              variant="secondary"
+              className="px-6 py-2 text-sm sm:text-base "
+            >
+              Contact Us
+            </Button>
           </div>
         </motion.div>
       </div>
