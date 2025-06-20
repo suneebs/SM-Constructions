@@ -47,7 +47,7 @@ export default function AboutSection() {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="/about1.jpg"
+            src="/about2.jpg"
             alt="SM Constructions Building"
             className="w-full rounded-xl shadow-lg object-cover h-[500px]"
           />
