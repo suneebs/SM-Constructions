@@ -20,25 +20,25 @@ export function Navbar() {
       if (section) {
         section.scrollIntoView({ behavior: "smooth", block: "start" });
       }
-    }, 250); // Delay for closing animation
+    }, 250);
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md shadow-sm transition-all">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        {/* Brand Logo and Name */}
+    <header className="w-full bg-white shadow-sm">
+      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+        {/* Logo and Brand */}
         <div className="flex items-center gap-3">
           <img
             src="/logo.png"
-            alt="SM Logo"
-            className="w-10 h-10 object-contain rounded-md shadow-sm"
+            alt="SM Constructions Logo"
+            className="w-10 h-10 object-contain rounded shadow"
           />
           <div className="flex flex-col leading-tight">
-            <span className="text-xl md:text-2xl font-extrabold text-yellow-700 tracking-tight">
+            <span className="text-xl md:text-2xl font-bold text-yellow-700 tracking-wide">
               SM Constructions
             </span>
             <span className="text-xs text-gray-500">
-              Built on Trust. Backed by Experience
+            Built on Trust. Backed by Experience
             </span>
           </div>
         </div>
@@ -53,12 +53,12 @@ export function Navbar() {
               className="relative group transition-colors duration-300"
             >
               {label}
-              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-600 group-hover:w-full transition-all duration-300"></span>
+              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-600 group-hover:w-full transition-all duration-300" />
             </a>
           ))}
         </nav>
 
-        {/* Mobile Toggle */}
+        {/* Mobile Menu Toggle */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-yellow-700 focus:outline-none"
@@ -76,7 +76,7 @@ export function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden bg-white overflow-hidden border-t border-gray-100 shadow-inner"
+            className="md:hidden bg-white border-t border-gray-200 shadow-inner"
           >
             <ul className="px-4 pb-4 pt-2 space-y-3 text-sm font-medium text-gray-700">
               {navLinks.map(({ href, label }) => (
