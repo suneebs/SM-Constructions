@@ -13,7 +13,7 @@ export function Navbar() {
   const navLinks = [
     { href: "#about", label: "About", isInternal: true },
     { href: "/services", label: "Services", isInternal: false },
-    { href: "#projects", label: "Projects", isInternal: true },
+    { href: "/projects", label: "Projects", isInternal: false },
     { href: "#contact", label: "Contact", isInternal: true },
   ];
 
@@ -24,7 +24,6 @@ export function Navbar() {
     const sectionId = href.replace("#", "");
 
     if (location.pathname !== "/") {
-      // Navigate to home and scroll after route changes
       setScrollToId(sectionId);
       navigate("/");
     } else {
@@ -38,7 +37,7 @@ export function Navbar() {
       const timeout = setTimeout(() => {
         scrollToSection(scrollToId);
         setScrollToId(null);
-      }, 200); // Wait for route to load
+      }, 200); 
 
       return () => clearTimeout(timeout);
     }
