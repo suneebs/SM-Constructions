@@ -1,12 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrollToId, setScrollToId] = useState(null);
 
-  // Define navLinks with routing type
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const navLinks = [
     { href: "#about", label: "About", isInternal: true },
     { href: "/services", label: "Services", isInternal: false },
@@ -17,19 +20,42 @@ export function Navbar() {
   const handleNavClick = (e, href) => {
     e.preventDefault();
     setIsOpen(false);
-    setTimeout(() => {
-      const section = document.querySelector(href);
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    }, 250); // Allow mobile menu to close before scroll
+
+    const sectionId = href.replace("#", "");
+
+    if (location.pathname !== "/") {
+      // Navigate to home and scroll after route changes
+      setScrollToId(sectionId);
+      navigate("/");
+    } else {
+      scrollToSection(sectionId);
+    }
+  };
+
+  // Scroll after navigation (when on / and scrollToId is set)
+  useEffect(() => {
+    if (scrollToId && location.pathname === "/") {
+      const timeout = setTimeout(() => {
+        scrollToSection(scrollToId);
+        setScrollToId(null);
+      }, 200); // Wait for route to load
+
+      return () => clearTimeout(timeout);
+    }
+  }, [scrollToId, location.pathname]);
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   };
 
   return (
     <header className="w-full bg-white shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        {/* Logo and Brand */}
-        <div className="flex items-center gap-3">
+        {/* Logo */}
+        <Link to="/" className="flex items-center gap-3">
           <img
             src="/logo.png"
             alt="SM Constructions Logo"
@@ -43,9 +69,9 @@ export function Navbar() {
               Built on Trust. Backed by Experience
             </span>
           </div>
-        </div>
+        </Link>
 
-        {/* Desktop Navigation */}
+        {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
           {navLinks.map(({ href, label, isInternal }) =>
             isInternal ? (
@@ -71,7 +97,7 @@ export function Navbar() {
           )}
         </nav>
 
-        {/* Mobile Menu Toggle */}
+        {/* Mobile menu toggle */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-yellow-700 focus:outline-none"
@@ -81,7 +107,7 @@ export function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Dropdown */}
+      {/* Mobile menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.nav
