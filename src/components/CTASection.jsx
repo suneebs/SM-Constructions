@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function CTASection() {
   return (
@@ -30,17 +31,19 @@ export default function CTASection() {
         </p>
 
         {/* Button */}
+        <Link to="/contact">
         <Button
           variant="outline"
           className="text-black cursor-pointer border-white px-8 py-3 text-base "
         >
           Get in Touch
         </Button>
+        </Link>
 
         {/* Highlights */}
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm md:text-base">
           <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold text-yellow-400">500+</span>
+            <span className="text-3xl font-bold text-yellow-400">600+</span>
             <p className="mt-2">Projects Delivered</p>
           </div>
           <div className="flex flex-col items-center">

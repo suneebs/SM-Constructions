@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom"; 
 
 export default function HeroSection() {
   return (
@@ -49,18 +50,22 @@ export default function HeroSection() {
             transition={{ delay: 2, duration: 1 }}
             className="flex justify-center gap-4 flex-wrap"
           >
+            <Link to="/services">
             <Button
               variant="secondary"
-              className="px-8 py-3 text-sm sm:text-base font-medium transition transform hover:scale-105 hover:shadow-xl duration-300"
+              className="px-8 py-3 text-sm cursor-pointer sm:text-base font-medium transition transform hover:scale-105 hover:shadow-xl duration-300"
             >
               Explore Services
             </Button>
+            </Link>
+            <Link to="/contact">
             <Button
               variant="outline"
-              className="px-8 py-3 text-sm sm:text-base border-white text-black hover:bg-white hover:text-black transition transform hover:scale-105 hover:shadow-xl duration-300"
+              className="px-8 py-3 text-sm cursor-pointer sm:text-base border-white text-black hover:bg-white hover:text-black transition transform hover:scale-105 hover:shadow-xl duration-300"
             >
               Get in Touch
             </Button>
+            </Link>
           </motion.div>
         </motion.div>
       </div>

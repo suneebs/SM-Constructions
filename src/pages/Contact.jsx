@@ -4,9 +4,9 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function Contact() {
   return (
     <section className="min-h-screen bg-white px-6 py-20 text-gray-800">
-      <div className="max-w-7xl mx-auto">
-        {/* Header Row with WhatsApp */}
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-6">
+      <div className="max-w-7xl mx-auto space-y-16">
+        {/* WhatsApp Header Section */}
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -16,110 +16,97 @@ export default function Contact() {
             >
               Let’s Build Something Together
             </motion.h2>
-            <p className="mt-2 text-gray-600 max-w-xl">
-              Whether it's your dream home, a commercial venture, or public infrastructure—SM Constructions is your trusted partner.
+            <p className="mt-3 text-gray-600 max-w-2xl leading-relaxed">
+              Whether it’s a luxurious residence, an office complex, or a government project —
+              we’re here to make it happen. Reach out and let’s talk about your vision.
             </p>
           </div>
 
-          {/* WhatsApp CTA */}
           <motion.a
-            href="https://wa.me/+918848154050"
+            href="https://wa.me/+9179948 54718"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="inline-flex items-center gap-3 bg-green-600 text-white px-5 py-3 rounded-lg shadow hover:bg-green-700 transition-all"
+            className="inline-flex items-center gap-3 bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 transition-all text-lg"
           >
-            <FaWhatsapp className="text-xl" />
-            <span className="font-semibold text-base">Chat on WhatsApp</span>
+            <FaWhatsapp className="text-2xl" />
+            Chat on WhatsApp
           </motion.a>
         </div>
 
-        {/* Grid Content */}
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
-          {/* Contact Info */}
+        {/* Contact Info + Image Section */}
+        <div className="grid md:grid-cols-2 gap-14 items-center">
+          {/* Left: Info */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
-            className="space-y-6"
+            className="space-y-8"
           >
             <div>
-              <h3 className="text-xl font-semibold mb-1 text-gray-800">📍 Address</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-1">📍 Our Office</h3>
               <p className="text-gray-600 leading-relaxed">
                 SM Constructions Pvt. Ltd. <br />
-                TC 12/34, Vellayambalam, Trivandrum, Kerala 695010
+                TC 12/34, Vellayambalam, <br />
+                Trivandrum, Kerala 695010
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-1 text-gray-800">📞 Phone</h3>
-              <p className="text-gray-600">+91 98765 43210</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-1">📞 Phone</h3>
+              <p className="text-gray-600">+91 79948 54718</p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-1 text-gray-800">✉️ Email</h3>
-              <p className="text-gray-600">info@smconstructions.in</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-1">✉️ Email</h3>
+              <p className="text-gray-600">vpb26539@gmail.com</p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-1 text-gray-800">🕐 Working Hours</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-1">🕐 Office Hours</h3>
               <p className="text-gray-600">Monday – Saturday: 9:00 AM – 6:00 PM</p>
             </div>
           </motion.div>
 
-          {/* Contact Form */}
-          <motion.form
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            onSubmit={(e) => e.preventDefault()}
-            className="bg-gray-50 border border-gray-200 rounded-lg p-8 shadow-md space-y-6"
+          {/* Right: Professional Image */}
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
           >
-            <h3 className="text-2xl font-semibold text-gray-800">Send Us a Message</h3>
-
-            <div className="space-y-2">
-              <label htmlFor="name" className="block font-medium text-sm">Name</label>
-              <input
-                type="text"
-                id="name"
-                required
-                placeholder="Your full name"
-                className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-600"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <label htmlFor="email" className="block font-medium text-sm">Email</label>
-              <input
-                type="email"
-                id="email"
-                required
-                placeholder="you@example.com"
-                className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-600"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <label htmlFor="message" className="block font-medium text-sm">Message</label>
-              <textarea
-                id="message"
-                rows="5"
-                required
-                placeholder="Type your message here..."
-                className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-600"
-              />
-            </div>
-
-            <button
-              type="submit"
-              className="w-full bg-yellow-600 text-white py-2 px-6 rounded hover:bg-yellow-700 transition-all"
-            >
-              Send Message
-            </button>
-          </motion.form>
+            <img
+              src="/about1.jpg" // Replace with a suitable image path (e.g., team photo, site meeting, or construction handshake)
+              alt="Contact SM Constructions"
+              className="w-full h-auto rounded-lg shadow-lg object-cover"
+            />
+          </motion.div>
         </div>
+
+        {/* Final CTA Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+          className="text-center bg-yellow-50 py-12 px-6 rounded-xl shadow-sm"
+        >
+          <h4 className="text-2xl font-bold text-gray-800 mb-3">
+            Let's Talk About Your Project
+          </h4>
+          <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
+            Our team is just a message away. Whether you're in the planning stage or ready to build,
+            we'll help you make informed, confident decisions.
+          </p>
+          <a
+            href="https://wa.me/+9179948 54718"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-3 rounded-lg transition text-lg"
+          >
+            Start WhatsApp Chat
+          </a>
+        </motion.div>
       </div>
     </section>
   );

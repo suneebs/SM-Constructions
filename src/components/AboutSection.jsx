@@ -22,7 +22,7 @@ export default function AboutSection() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
             <div>
-              <h3 className="text-xl font-semibold text-yellow-700">500+ Projects</h3>
+              <h3 className="text-xl font-semibold text-yellow-700">600+ Projects</h3>
               <p className="text-sm text-gray-500">Across residential, commercial & industrial sectors</p>
             </div>
             <div>

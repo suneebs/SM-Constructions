@@ -112,11 +112,11 @@ export default function Projects() {
           className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 text-center"
         >
           <div>
-            <h3 className="text-4xl font-bold text-yellow-700">500+</h3>
+            <h3 className="text-4xl font-bold text-yellow-700">600+</h3>
             <p className="text-gray-600 mt-2">Completed Projects</p>
           </div>
           <div>
-            <h3 className="text-4xl font-bold text-yellow-700">48 Years</h3>
+            <h3 className="text-4xl font-bold text-yellow-700">49 Years</h3>
             <p className="text-gray-600 mt-2">Experience Since 1975</p>
           </div>
           <div>
