@@ -14,7 +14,7 @@ export function Navbar() {
     { href: "#about", label: "About", isInternal: true },
     { href: "/services", label: "Services", isInternal: false },
     { href: "/projects", label: "Projects", isInternal: false },
-    { href: "#contact", label: "Contact", isInternal: true },
+    { href: "/contact", label: "Contact", isInternal: false },
   ];
 
   const handleNavClick = (e, href) => {
