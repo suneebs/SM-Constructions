@@ -62,7 +62,7 @@ export function Navbar() {
           />
           <div className="flex flex-col leading-tight">
             <span className="text-xl md:text-2xl font-bold text-yellow-700 tracking-wide">
-              SM Constructions
+              SM Constructions Pvt. Ltd.
             </span>
             <span className="text-xs text-gray-500">
               Built on Trust. Backed by Experience
