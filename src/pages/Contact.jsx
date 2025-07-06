@@ -48,9 +48,13 @@ export default function Contact() {
             <div>
               <h3 className="text-xl font-semibold text-gray-900 mb-1">📍 Our Office</h3>
               <p className="text-gray-600 leading-relaxed">
-                SM Constructions Pvt. Ltd. <br />
-                TC 12/34, Vellayambalam, <br />
-                Trivandrum, Kerala 695010
+                  Sm constructions and developers pvt ltd <br />
+                  Aishwarya shopping complex, <br />
+                  Near grameena Bank, <br />
+                  Vattamkulam, <br />
+                  Edappal Malappuram  district, <br />
+                  Kerala, India <br />
+                  679578
               </p>
             </div>
 
@@ -70,18 +74,25 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          {/* Right: Professional Image */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-          >
-            <img
-              src="/about1.jpg" // Replace with a suitable image path (e.g., team photo, site meeting, or construction handshake)
-              alt="Contact SM Constructions"
-              className="w-full h-auto rounded-lg shadow-lg object-cover"
-            />
-          </motion.div>
+          {/* Right: Embedded Google Map */}
+<motion.div
+  initial={{ opacity: 0, x: 30 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.7, delay: 0.2 }}
+  className="w-full h-[400px] rounded-lg overflow-hidden shadow-lg"
+>
+  <iframe
+    title="SM Constructions Location"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.333679166998!2d76.02180947407024!3d10.785735259023944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b9007fa21675%3A0xfc8271f8601f4158!2sVattamkulam%20edappal!5e0!3m2!1sen!2sin!4v1751799444564!5m2!1sen!2sin" 
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</motion.div>
+
         </div>
 
         {/* Final CTA Section */}
