@@ -14,6 +14,7 @@ export function Navbar() {
     { href: "#about", label: "About", isInternal: true },
     { href: "/services", label: "Services", isInternal: false },
     { href: "/projects", label: "Projects", isInternal: false },
+    { href: "/cost-estimation", label: "Compare Packages", isInternal: false },
     { href: "/contact", label: "Contact", isInternal: false },
   ];
 

@@ -1,12 +1,14 @@
-import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
-import CTASection from "@/components/CTASection";
+import HeroSection from "@/components/Home/HeroSection";
+import AboutSection from "@/components/Home/AboutSection";
+import CTASection from "@/components/Home/CTASection";
+import PricingPlans from "../components/Home/PricingPlans";
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
       <AboutSection />
+      <PricingPlans />
       <CTASection />
     </main>
   );

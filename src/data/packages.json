@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Basic Package",
+    "rate": 1900,
+    "city": ["Bengaluru", "Trivandrum", "Chennai", "Coimbatore"],
+    "highlights": [
+      "Trusted brand steel & cement",
+      "Standard floor tiles up to ₹50/sqft",
+      "Standard flush doors and window finish",
+      "Tractor Emulsion finish",
+      "Essential kitchen & bathroom fittings"
+    ],
+    "brands": ["Sunvik", "Dalmia", "Bharathi", "Kamadhenu"],
+    "details": {
+      "structure": {
+        "steel": "Sunvik or Prime Gold or Kamadhenu or Tirumala",
+        "cement": "Dalmia or Zuari or Bharathi (43/53 grade)",
+        "aggregates": "20mm & 40mm",
+        "blocks": "Standard Solid Concrete blocks (6\" & 4\")",
+        "rccMix": "M20 / M25 or as per structural recommendation",
+        "ceilingHeight": "10 feet (Finished Floor to Floor)"
+      },
+      "kitchen": {
+        "wallDado": "Ceramic wall dado up to ₹40/sqft",
+        "sinkFaucet": "Main Sink Faucet up to ₹1300",
+        "otherFittings": "ISI Marked",
+        "sink": "Stainless Steel Single Sink worth ₹3,000"
+      },
+      "bathroom": {
+        "wallDado": "Ceramic wall dado up to 7ft height - ₹40/sqft",
+        "fittings": "Sanitarywares & CP fittings worth ₹30,000 per 1000 sqft (Cera make)",
+        "plumbing": "CPVC Pipes - Apollo or Astral",
+        "doors": "Waterproof flush doors or WPC"
+      },
+      "doorsAndWindows": {
+        "windows": "Aluminium windows (3-track with mesh) - Jindal Profiles",
+        "mainDoor": "Flush Door with Veneer, Sal wood frame (₹20,000 incl. fixtures)",
+        "internalDoors": "Membrane/Flush Doors with laminates (₹11,000 incl. fixtures), Sal wood frames"
+      },
+      "painting": {
+        "interior": "JK Putty + Tractor Emulsion",
+        "exterior": "Asian Primer + Ace Exterior Emulsion"
+      },
+      "flooring": {
+        "livingDining": "Tiles up to ₹50/sqft",
+        "roomsKitchen": "Tiles up to ₹50/sqft",
+        "balcony": "Anti-skid tiles up to ₹40/sqft",
+        "staircase": "Sadarahalli Granite up to ₹70/sqft",
+        "parking": "Anti-skid tiles up to ₹40/sqft"
+      },
+      "electrical": {
+        "wiring": "Fireproof wires - Finolex/Anchor/Havells",
+        "switches": "Legrand Allzy / GM G9 / Hi-Fi / Great White"
+      },
+      "miscellaneous": {
+        "overheadTank": "1000L Apollo Double Layered",
+        "sump": "4000L",
+        "railing": "MS Staircase Railing",
+        "grills": "Basic MS Grills @ ₹195/sqft"
+      }
+    }
+  },
+  {
+    "name": "Classic Package",
+    "rate": 2030,
+    "city": ["Bengaluru", "Trivandrum", "Chennai", "Coimbatore"],
+    "highlights": [
+      "Superior brand steel & cement",
+      "Refined floor tiles up to ₹100/sqft",
+      "Elegant teak doors and window finish",
+      "Tractor Shyne Emulsion finish",
+      "Stylish kitchen & bathroom fittings"
+    ],
+    "brands": ["Jindal", "Hindware", "Parryware", "Plastone"],
+    "details": {
+      "structure": {
+        "steel": "Indus or Jindal Panther or Vizag",
+        "cement": "Dalmia or Zuari or Bharathi (43/53 grade)",
+        "aggregates": "20mm & 40mm",
+        "blocks": "Standard Solid Concrete blocks (6\" & 4\")",
+        "rccMix": "M20 / M25 or as per structural recommendation",
+        "ceilingHeight": "10 feet (Finished Floor to Floor)"
+      },
+      "kitchen": {
+        "wallDado": "Ceramic wall dado up to ₹60/sqft",
+        "sinkFaucet": "Main Sink Faucet up to ₹2000",
+        "otherFittings": "ISI Marked",
+        "sink": "Stainless Steel Single Sink worth ₹6,000"
+      },
+      "bathroom": {
+        "wallDado": "Ceramic wall dado up to 7ft height - ₹60/sqft",
+        "fittings": "Sanitarywares & CP fittings worth ₹50,000 per 1000 sqft (Hindware/Parryware)",
+        "plumbing": "CPVC Pipes - Apollo or Astral",
+        "doors": "Waterproof flush doors or WPC"
+      },
+      "doorsAndWindows": {
+        "windows": "UPVC windows (3-track with mesh) - Luftung/Plastone/Lesso EITI",
+        "mainDoor": "Teak Door with Teak frame (₹30,000 incl. fixtures)",
+        "internalDoors": "Membrane/Flush Doors with laminates (₹11,000 incl. fixtures), Sal wood frames"
+      },
+      "painting": {
+        "interior": "JK Putty + Tractor Shyne Emulsion",
+        "exterior": "Asian Primer + Apex Exterior Emulsion"
+      },
+      "flooring": {
+        "livingDining": "Tiles or Granite up to ₹100/sqft",
+        "roomsKitchen": "Tiles up to ₹80/sqft",
+        "balcony": "Anti-skid tiles up to ₹60/sqft",
+        "staircase": "Sadarahalli Granite up to ₹80/sqft",
+        "parking": "Anti-skid tiles up to ₹50/sqft"
+      },
+      "electrical": {
+        "wiring": "Fireproof wires - Finolex/Anchor/Havells",
+        "switches": "Roma / Lisha / Legrand Lyncus / Havells Fabio",
+        "upsProvision": true
+      },
+      "miscellaneous": {
+        "overheadTank": "1500L Apollo Double Layered",
+        "sump": "6000L",
+        "railing": "MS Staircase Railing",
+        "grills": "Basic MS Grills @ ₹195/sqft"
+      }
+    }
+  },
+  {
+    "name": "Premium Package",
+    "rate": 2350,
+    "city": ["Bengaluru", "Trivandrum", "Chennai", "Coimbatore"],
+    "highlights": [
+      "Premium brand steel & cement",
+      "Premium floor tiles up to ₹140/sqft",
+      "Designer teak doors and window finish",
+      "Apcolite Premium paint finish",
+      "High-quality kitchen & bathroom"
+    ],
+    "brands": ["JSW", "Asian Paints", "Cera", "Somany"],
+    "details": {
+      "structure": {
+        "steel": "JSW or equivalent",
+        "cement": "UltraTech or ACC (43/53 grade)",
+        "aggregates": "20mm & 40mm",
+        "blocks": "AAC or Premium Concrete Blocks",
+        "rccMix": "M25 or as per structural recommendation",
+        "ceilingHeight": "10.5 feet (Finished Floor to Floor)"
+      },
+      "kitchen": {
+        "wallDado": "Premium tiles up to ₹80/sqft",
+        "sinkFaucet": "Main Sink Faucet up to ₹3000",
+        "otherFittings": "Branded accessories (Jaguar/Ess Ess)",
+        "sink": "Granite sink or Stainless Steel worth ₹8,000"
+      },
+      "bathroom": {
+        "wallDado": "Tiles up to ₹80/sqft, full height",
+        "fittings": "Sanitarywares & CP fittings worth ₹65,000 per 1000 sqft (Cera or Jaguar)",
+        "plumbing": "CPVC Pipes - Astral or Ashirvad",
+        "doors": "WPC / UPVC waterproof doors"
+      },
+      "doorsAndWindows": {
+        "windows": "UPVC windows with mesh shutters - Encraft / Fenesta",
+        "mainDoor": "Designer Teak Wood Door with Teak Frame (₹40,000 incl. fixtures)",
+        "internalDoors": "Laminated Flush Doors (₹15,000 incl. fixtures), Hardwood frames"
+      },
+      "painting": {
+        "interior": "JK Putty + Apcolite Premium Emulsion",
+        "exterior": "Asian Primer + Apex Ultima"
+      },
+      "flooring": {
+        "livingDining": "Premium Tiles or Granite up to ₹140/sqft",
+        "roomsKitchen": "Tiles up to ₹120/sqft",
+        "balcony": "Anti-skid tiles up to ₹80/sqft",
+        "staircase": "Granite up to ₹100/sqft",
+        "parking": "Anti-skid tiles up to ₹70/sqft"
+      },
+      "electrical": {
+        "wiring": "Fireproof wires - Polycab/Finolex/Havells",
+        "switches": "Legrand Myrius or Havells Fabio",
+        "upsProvision": true
+      },
+      "miscellaneous": {
+        "overheadTank": "2000L Triple Layer Tank",
+        "sump": "8000L RCC",
+        "railing": "Stainless Steel Railing with glass",
+        "grills": "Designer MS Grills @ ₹250/sqft"
+      }
+    }
+  },
+  {
+    "name": "Royale Package",
+    "rate": 2585,
+    "city": ["Bengaluru", "Trivandrum", "Chennai", "Coimbatore"],
+    "highlights": [
+      "Top-tier brand steel & cement",
+      "Lavish tiles up to ₹160/sqft",
+      "Designer teak doors & window finish",
+      "Apex Ultima Exterior finish",
+      "EV charger, copper gas connection, lavish fittings"
+    ],
+    "brands": ["TATA Steel", "Jaquar", "Parryware", "Fenesta"],
+    "details": {
+      "structure": {
+        "steel": "TATA Steel or SAIL",
+        "cement": "UltraTech or ACC (53 grade)",
+        "aggregates": "20mm & 40mm washed aggregates",
+        "blocks": "AAC Premium Blocks",
+        "rccMix": "M25 / M30 as per structural recommendation",
+        "ceilingHeight": "11 feet (Finished Floor to Floor)"
+      },
+      "kitchen": {
+        "wallDado": "Designer tiles up to ₹100/sqft",
+        "sinkFaucet": "Main Sink Faucet up to ₹4000",
+        "otherFittings": "Top-tier accessories (Grohe / Jaquar)",
+        "sink": "Granite Sink or Quadro Sink worth ₹12,000"
+      },
+      "bathroom": {
+        "wallDado": "Designer tiles up to ₹100/sqft full height",
+        "fittings": "Sanitarywares & CP fittings worth ₹85,000 per 1000 sqft (Jaquar / Parryware)",
+        "plumbing": "CPVC Pipes - Astral or Ashirvad",
+        "doors": "Designer Waterproof Doors / Veneer Laminated"
+      },
+      "doorsAndWindows": {
+        "windows": "UPVC / Aluminum windows with soundproof glass - Fenesta",
+        "mainDoor": "High-end Designer Teak Wood Door (₹60,000 incl. fixtures)",
+        "internalDoors": "Designer Veneered Doors (₹20,000 incl. fixtures), Teak wood frames"
+      },
+      "painting": {
+        "interior": "Asian Royale Luxury Emulsion",
+        "exterior": "Apex Ultima Protek with 10 year warranty"
+      },
+      "flooring": {
+        "livingDining": "Luxury Vitrified Tiles or Imported Marble up to ₹160/sqft",
+        "roomsKitchen": "Tiles up to ₹140/sqft",
+        "balcony": "Anti-skid designer tiles up to ₹100/sqft",
+        "staircase": "Granite or Marble up to ₹150/sqft",
+        "parking": "Anti-skid designer tiles up to ₹80/sqft"
+      },
+      "electrical": {
+        "wiring": "Premium fireproof wires - Havells / Polycab",
+        "switches": "Modular switches - Schneider / Legrand Arteor",
+        "upsProvision": true,
+        "smartFeatures": "Smart home provision for lights/fans"
+      },
+      "miscellaneous": {
+        "overheadTank": "2000L Triple Layer Tank",
+        "sump": "10,000L RCC",
+        "railing": "Designer Glass + SS Railings",
+        "grills": "Designer Grills @ ₹300/sqft",
+        "evCharger": true,
+        "copperGasLine": true
+      }
+    }
+  }
+]
