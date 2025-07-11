@@ -13,7 +13,7 @@
     "brands": ["Sunvik", "Dalmia", "Bharathi", "Kamadhenu"],
     "details": {
       "structure": {
-        "steel": "Sunvik or Prime Gold or Kamadhenu or Tirumala",
+        "steel": "Kairali or kalliyath",
         "cement": "Dalmia or Zuari or Bharathi (43/53 grade)",
         "aggregates": "20mm & 40mm",
         "blocks": "Standard Solid Concrete blocks (6\" & 4\")",
@@ -21,21 +21,21 @@
         "ceilingHeight": "10 feet (Finished Floor to Floor)"
       },
       "kitchen": {
-        "wallDado": "Ceramic wall dado up to ₹40/sqft",
-        "sinkFaucet": "Main Sink Faucet up to ₹1300",
+        "wallTiles": "Ceramic wall dado up to ₹40/sqft",
+        
         "otherFittings": "ISI Marked",
         "sink": "Stainless Steel Single Sink worth ₹3,000"
       },
       "bathroom": {
-        "wallDado": "Ceramic wall dado up to 7ft height - ₹40/sqft",
+        "wallTiles": "Wall tiles up to 7ft height - ₹40/sqft",
         "fittings": "Sanitarywares & CP fittings worth ₹30,000 per 1000 sqft (Cera make)",
         "plumbing": "CPVC Pipes - Apollo or Astral",
         "doors": "Waterproof flush doors or WPC"
       },
       "doorsAndWindows": {
-        "windows": "Aluminium windows (3-track with mesh) - Jindal Profiles",
-        "mainDoor": "Flush Door with Veneer, Sal wood frame (₹20,000 incl. fixtures)",
-        "internalDoors": "Membrane/Flush Doors with laminates (₹11,000 incl. fixtures), Sal wood frames"
+        "windows": "Apollo steel frame windows with glass",
+        "mainDoor": "Steel (₹20,000 incl. fixtures)",
+        "internalDoors": "Steel door and frame (₹11,000 incl. fixtures)"
       },
       "painting": {
         "interior": "JK Putty + Tractor Emulsion",
@@ -45,7 +45,7 @@
         "livingDining": "Tiles up to ₹50/sqft",
         "roomsKitchen": "Tiles up to ₹50/sqft",
         "balcony": "Anti-skid tiles up to ₹40/sqft",
-        "staircase": "Sadarahalli Granite up to ₹70/sqft",
+        "staircase": "Tiles up to ₹70/sqft",
         "parking": "Anti-skid tiles up to ₹40/sqft"
       },
       "electrical": {
@@ -74,7 +74,7 @@
     "brands": ["Jindal", "Hindware", "Parryware", "Plastone"],
     "details": {
       "structure": {
-        "steel": "Indus or Jindal Panther or Vizag",
+        "steel": "Prince or equivalent",
         "cement": "Dalmia or Zuari or Bharathi (43/53 grade)",
         "aggregates": "20mm & 40mm",
         "blocks": "Standard Solid Concrete blocks (6\" & 4\")",
@@ -82,21 +82,20 @@
         "ceilingHeight": "10 feet (Finished Floor to Floor)"
       },
       "kitchen": {
-        "wallDado": "Ceramic wall dado up to ₹60/sqft",
-        "sinkFaucet": "Main Sink Faucet up to ₹2000",
+        "wallTiles": "Wall tiles up to ₹60/sqft",
         "otherFittings": "ISI Marked",
         "sink": "Stainless Steel Single Sink worth ₹6,000"
       },
       "bathroom": {
-        "wallDado": "Ceramic wall dado up to 7ft height - ₹60/sqft",
+        "wallTado": "Wall tiles up to 7ft height - ₹60/sqft",
         "fittings": "Sanitarywares & CP fittings worth ₹50,000 per 1000 sqft (Hindware/Parryware)",
         "plumbing": "CPVC Pipes - Apollo or Astral",
-        "doors": "Waterproof flush doors or WPC"
+        "doors": "Waterproof doors or WPC"
       },
       "doorsAndWindows": {
         "windows": "UPVC windows (3-track with mesh) - Luftung/Plastone/Lesso EITI",
         "mainDoor": "Teak Door with Teak frame (₹30,000 incl. fixtures)",
-        "internalDoors": "Membrane/Flush Doors with laminates (₹11,000 incl. fixtures), Sal wood frames"
+        "internalDoors": "Steel Doors (₹11,000 incl. fixtures)"
       },
       "painting": {
         "interior": "JK Putty + Tractor Shyne Emulsion",
@@ -106,13 +105,13 @@
         "livingDining": "Tiles or Granite up to ₹100/sqft",
         "roomsKitchen": "Tiles up to ₹80/sqft",
         "balcony": "Anti-skid tiles up to ₹60/sqft",
-        "staircase": "Sadarahalli Granite up to ₹80/sqft",
+        "staircase": "Tiles or Granite up to ₹80/sqft",
         "parking": "Anti-skid tiles up to ₹50/sqft"
       },
       "electrical": {
         "wiring": "Fireproof wires - Finolex/Anchor/Havells",
         "switches": "Roma / Lisha / Legrand Lyncus / Havells Fabio",
-        "upsProvision": true
+        "upsProvision": "yes"
       },
       "miscellaneous": {
         "overheadTank": "1500L Apollo Double Layered",
@@ -141,24 +140,23 @@
         "aggregates": "20mm & 40mm",
         "blocks": "AAC or Premium Concrete Blocks",
         "rccMix": "M25 or as per structural recommendation",
-        "ceilingHeight": "10.5 feet (Finished Floor to Floor)"
+        "ceilingHeight": "10 feet (Finished Floor to Floor)"
       },
       "kitchen": {
-        "wallDado": "Premium tiles up to ₹80/sqft",
-        "sinkFaucet": "Main Sink Faucet up to ₹3000",
+        "wallTiles": "Premium tiles up to ₹80/sqft",
         "otherFittings": "Branded accessories (Jaguar/Ess Ess)",
-        "sink": "Granite sink or Stainless Steel worth ₹8,000"
+        "sink": "Stainless Steel worth ₹8,000"
       },
       "bathroom": {
-        "wallDado": "Tiles up to ₹80/sqft, full height",
+        "wallTiles": "Tiles up to ₹80/sqft, full height",
         "fittings": "Sanitarywares & CP fittings worth ₹65,000 per 1000 sqft (Cera or Jaguar)",
         "plumbing": "CPVC Pipes - Astral or Ashirvad",
         "doors": "WPC / UPVC waterproof doors"
       },
       "doorsAndWindows": {
-        "windows": "UPVC windows with mesh shutters - Encraft / Fenesta",
+        "windows": "UPVC windows with mesh shutters",
         "mainDoor": "Designer Teak Wood Door with Teak Frame (₹40,000 incl. fixtures)",
-        "internalDoors": "Laminated Flush Doors (₹15,000 incl. fixtures), Hardwood frames"
+        "internalDoors": "Laminated Doors (₹15,000 incl. fixtures), Hardwood frames"
       },
       "painting": {
         "interior": "JK Putty + Apcolite Premium Emulsion",
@@ -168,13 +166,13 @@
         "livingDining": "Premium Tiles or Granite up to ₹140/sqft",
         "roomsKitchen": "Tiles up to ₹120/sqft",
         "balcony": "Anti-skid tiles up to ₹80/sqft",
-        "staircase": "Granite up to ₹100/sqft",
+        "staircase": "Tiles or Granite up to ₹100/sqft",
         "parking": "Anti-skid tiles up to ₹70/sqft"
       },
       "electrical": {
         "wiring": "Fireproof wires - Polycab/Finolex/Havells",
         "switches": "Legrand Myrius or Havells Fabio",
-        "upsProvision": true
+        "Advanced Wiring Inverter": "yes"
       },
       "miscellaneous": {
         "overheadTank": "2000L Triple Layer Tank",
@@ -203,28 +201,27 @@
         "aggregates": "20mm & 40mm washed aggregates",
         "blocks": "AAC Premium Blocks",
         "rccMix": "M25 / M30 as per structural recommendation",
-        "ceilingHeight": "11 feet (Finished Floor to Floor)"
+        "ceilingHeight": "10 feet (Finished Floor to Floor)"
       },
       "kitchen": {
-        "wallDado": "Designer tiles up to ₹100/sqft",
-        "sinkFaucet": "Main Sink Faucet up to ₹4000",
+        "wallTiles": "Designer tiles up to ₹100/sqft",
         "otherFittings": "Top-tier accessories (Grohe / Jaquar)",
-        "sink": "Granite Sink or Quadro Sink worth ₹12,000"
+        "sink": "Stainless Steel Sink worth ₹12,000"
       },
       "bathroom": {
-        "wallDado": "Designer tiles up to ₹100/sqft full height",
+        "wallTiles": "Designer tiles up to ₹100/sqft full height",
         "fittings": "Sanitarywares & CP fittings worth ₹85,000 per 1000 sqft (Jaquar / Parryware)",
         "plumbing": "CPVC Pipes - Astral or Ashirvad",
         "doors": "Designer Waterproof Doors / Veneer Laminated"
       },
       "doorsAndWindows": {
-        "windows": "UPVC / Aluminum windows with soundproof glass - Fenesta",
+        "windows": "UPVC / Aluminum windows with soundproof glass",
         "mainDoor": "High-end Designer Teak Wood Door (₹60,000 incl. fixtures)",
         "internalDoors": "Designer Veneered Doors (₹20,000 incl. fixtures), Teak wood frames"
       },
       "painting": {
         "interior": "Asian Royale Luxury Emulsion",
-        "exterior": "Apex Ultima Protek with 10 year warranty"
+        "exterior": "Apex Ultima"
       },
       "flooring": {
         "livingDining": "Luxury Vitrified Tiles or Imported Marble up to ₹160/sqft",
@@ -236,7 +233,7 @@
       "electrical": {
         "wiring": "Premium fireproof wires - Havells / Polycab",
         "switches": "Modular switches - Schneider / Legrand Arteor",
-        "upsProvision": true,
+        "Inverted Advanced Wiring": "yes",
         "smartFeatures": "Smart home provision for lights/fans"
       },
       "miscellaneous": {
@@ -244,8 +241,7 @@
         "sump": "10,000L RCC",
         "railing": "Designer Glass + SS Railings",
         "grills": "Designer Grills @ ₹300/sqft",
-        "evCharger": true,
-        "copperGasLine": true
+        "evCharger": "yes"
       }
     }
   }
