@@ -41,7 +41,10 @@ const galleryData = [
       "https://i.postimg.cc/SxYFKTTz/524a07d5-423d-4d7e-83f1-6bcd93d780a4.jpg",
       "https://i.postimg.cc/q7ff6sSD/74940b57-a922-43a2-a71a-be7035f22517.jpg",
       "https://i.postimg.cc/PJ7VshkV/6a2c37fc-c24b-441e-91da-86ff3a67e536.jpg",
-      "https://i.postimg.cc/43GLTBrG/2e8ac942-4bf5-4058-b8c3-4d80fb24e12d.jpg"
+      "https://i.postimg.cc/43GLTBrG/2e8ac942-4bf5-4058-b8c3-4d80fb24e12d.jpg",
+      "https://i.postimg.cc/q7Qnpb2V/Screenshot-2025-07-14-005008.png",
+      "https://i.postimg.cc/Y99F06x4/Screenshot-2025-07-14-005112.png",
+      "https://i.postimg.cc/L6fxmSXc/Screenshot-2025-07-14-005158.png",
     ],
   },
   {
@@ -78,6 +81,7 @@ const galleryData = [
       "https://i.postimg.cc/hGft01tL/131df958-93b6-4a56-8cca-ce1a31cec8c4.jpg",
       "https://i.postimg.cc/MK1wqrv3/5.jpg",
       "https://i.postimg.cc/rpw2GVg7/17.jpg",
+      "https://i.postimg.cc/WzTQ04hJ/Screenshot-2025-07-14-004653.png"
     ],
   },
   {
@@ -89,6 +93,15 @@ const galleryData = [
       "https://i.postimg.cc/DwfrnHx7/dining-and-kitchen.jpg",
       "https://i.postimg.cc/Dz2MVxXG/1.jpg",
       
+    ],
+  },
+  {
+    title: "Drawings",
+    images: [
+      "https://i.postimg.cc/jj8XMdg7/Screenshot-2025-07-14-005309.png",
+      "https://i.postimg.cc/VLjW3FZ1/Screenshot-2025-07-14-005517.png",
+      "https://i.postimg.cc/QMMgKZ8x/Screenshot-2025-07-14-005559.png",
+      "https://i.postimg.cc/FK1csbpY/Screenshot-2025-07-14-005646.png",
     ],
   },
 ];
