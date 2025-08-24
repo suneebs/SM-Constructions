@@ -12,6 +12,9 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages   # 👈 REQUIRED for deploy-pages@v4
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -29,15 +32,14 @@ jobs:
       - name: Build app
         run: npm run build
 
-      - name: Deploy to GitHub Pages
+      - name: Configure Pages
         uses: actions/configure-pages@v5
-        with: {}
-      
+
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
-      - name: Deploy to pages
-        uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@v4
