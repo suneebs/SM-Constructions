@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SM Constructions</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/main.jsx"></script>
+
+    <!-- GitHub Pages SPA redirect fix -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.getItem("redirect");
+        if (redirect) {
+          sessionStorage.removeItem("redirect");
+          var location = JSON.parse(redirect);
+          history.replaceState(null, null, location.pathname + location.search);
+        }
+      })();
+    </script>
+  </body>
+</html>
