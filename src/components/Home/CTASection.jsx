@@ -1,13 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import ctaBg from "@/assets/cta-bg.jpg";
 
 export default function CTASection() {
   return (
     <section
       className="relative text-white py-24 px-4 overflow-hidden"
       style={{
-        backgroundImage: "url('/cta-bg.jpg')",
+        backgroundImage: `url(${ctaBg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "scroll", // Use 'fixed' if desired

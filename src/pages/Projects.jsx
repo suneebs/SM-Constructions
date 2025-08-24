@@ -1,9 +1,15 @@
 import { motion } from "framer-motion";
 
+// Import images from assets
+import about1 from "@/assets/about1.jpg";
+import about2 from "@/assets/about2.jpg";
+import about3 from "@/assets/about3.jpg";
+import ctaBg from "@/assets/cta-bg.jpg";
+
 const projects = [
   {
     title: "Hill View Villas",
-    image: "/about3.jpg",
+    image: about3,
     location: "Trivandrum, Kerala",
     description:
       "A luxury gated villa community with contemporary design, solar panels, rainwater harvesting, and premium landscaping.",
@@ -11,7 +17,7 @@ const projects = [
   },
   {
     title: "Metro Plaza Commercial Complex",
-    image: "/about2.jpg",
+    image: about2,
     location: "Kochi, Kerala",
     description:
       "A modern commercial hub featuring retail outlets, food courts, and energy-efficient office spaces.",
@@ -19,7 +25,7 @@ const projects = [
   },
   {
     title: "TechZone IT Park",
-    image: "/cta-bg.jpg",
+    image: ctaBg,
     location: "Calicut, Kerala",
     description:
       "A sprawling green-certified IT zone hosting multiple tech startups with plug-and-play office infrastructure.",
@@ -27,7 +33,7 @@ const projects = [
   },
   {
     title: "Govt. Hospital Block",
-    image: "/about1.jpg",
+    image: about1,
     location: "Kollam, Kerala",
     description:
       "Turnkey public health project with advanced ICU, modular OT, and seamless accessibility for all patients.",
@@ -35,7 +41,7 @@ const projects = [
   },
   {
     title: "Skyline Luxury Towers",
-    image: "/about1.jpg",
+    image: about1,
     location: "Thrissur, Kerala",
     description:
       "High-rise premium apartments offering skyline views, infinity pools, and smart home automation.",
@@ -43,7 +49,7 @@ const projects = [
   },
   {
     title: "Urban Convention Center",
-    image: "/about2.jpg",
+    image: about2,
     location: "Ernakulam, Kerala",
     description:
       "Multi-purpose convention facility with auditorium, banquet hall, exhibition spaces, and advanced AV setups.",

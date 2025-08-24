@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import about2 from "@/assets/about2.jpg";
 
 export default function AboutSection() {
   return (
@@ -17,7 +18,7 @@ export default function AboutSection() {
           </h2>
 
           <p className="text-gray-600 text-lg leading-relaxed">
-            SM Constructions Private Limited, founded in 1975 in Malappuram, has become one of Kerala’s most respected construction companies. With a record of completing 500+ projects, we specialize in high-quality residential, commercial, and public infrastructure developments.
+            SM Constructions Private Limited, founded in 1975 in Malappuram, has become one of Kerala's most respected construction companies. With a record of completing 500+ projects, we specialize in high-quality residential, commercial, and public infrastructure developments.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
@@ -47,7 +48,7 @@ export default function AboutSection() {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="/about2.jpg"
+            src={about2}
             alt="SM Constructions Building"
             className="w-full rounded-xl shadow-lg object-cover h-[500px]"
           />

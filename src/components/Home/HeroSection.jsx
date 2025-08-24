@@ -1,13 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import Construction from "@/assets/construction.jpg";
 
 export default function HeroSection() {
   return (
     <section
       className="relative min-h-screen bg-cover bg-center text-white"
       style={{
-        backgroundImage: "url('/Construction.jpg')",
+        backgroundImage: `url(${Construction})`,
         backgroundAttachment: "scroll",
         backgroundPosition: "center",
         backgroundSize: "cover",
@@ -16,7 +17,7 @@ export default function HeroSection() {
     >
       {/* SEO Hidden Image for Crawlers */}
       <img
-        src="/Construction.jpg"
+        src={Construction}
         alt="Residential and commercial construction by SM Constructions in Kerala"
         className="hidden"
       />
