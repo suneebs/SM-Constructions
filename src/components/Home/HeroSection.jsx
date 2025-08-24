@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import Construction from "@/assets/construction.jpg";
+import Construction from "@/assets/Construction.jpg";
 
 export default function HeroSection() {
   return (
