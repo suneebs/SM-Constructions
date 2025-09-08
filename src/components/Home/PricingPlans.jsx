@@ -4,7 +4,7 @@ import { CheckCircle } from "lucide-react";
 const plans = [
   {
     name: "Basic",
-    price: "₹1650/sqft",
+    price: "₹1700/sqft",
     description: "A budget package with no compromise on quality that includes all construction essentials.",
     features: [
   "Trusted brand steel & cement",
