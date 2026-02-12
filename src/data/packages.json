@@ -56,7 +56,7 @@
         "overheadTank": "1000L Apollo Double Layered",
         "sump": "4000L",
         "railing": "MS Staircase Railing",
-        "grills": "Basic MS Grills @ ₹195/sqft"
+        "grills": "Work area MS Grills"
       }
     }
   },
@@ -117,7 +117,7 @@
         "overheadTank": "1500L Apollo Double Layered",
         "sump": "6000L",
         "railing": "MS Staircase Railing",
-        "grills": "Basic MS Grills @ ₹195/sqft"
+        "grills": "Work area MS Grills"
       }
     }
   },
@@ -178,7 +178,7 @@
         "overheadTank": "2000L Triple Layer Tank",
         "sump": "8000L RCC",
         "railing": "Stainless Steel Railing with glass",
-        "grills": "Designer MS Grills @ ₹250/sqft"
+        "grills": "Work area MS Grills"
       }
     }
   },
@@ -240,7 +240,7 @@
         "overheadTank": "2000L Triple Layer Tank",
         "sump": "10,000L RCC",
         "railing": "Designer Glass + SS Railings",
-        "grills": "Designer Grills @ ₹300/sqft",
+        "grills": "Work area MS Grills",
         "evCharger": "yes"
       }
     }
